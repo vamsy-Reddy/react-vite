@@ -1,6 +1,6 @@
 const TabButton = ({ children, isselected, ...props }) => (
   <li>
-    <button className={isselected ? "active" : null} {...props} onClick={props.onClick}>{children}</button>
+    <button className={isselected ? "active" : null} {...props}>{children}</button>
   </li>
 );
 
