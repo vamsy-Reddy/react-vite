@@ -1,11 +1,11 @@
 const CoreConcepts = (props) => {
-    return (
-      <li>
-        <img src={props.image} alt={props.title}/>
-        <h3>{props.title}</h3>
-        <p>{props.description}</p>
-      </li>
-    )
-  }
+  return (
+    <li>
+      <img src={props.image} alt={props.title} />
+      <h3>{props.title}</h3>
+      <p>{props.description}</p>
+    </li>
+  );
+};
 
-export default CoreConcepts
+export default CoreConcepts;
